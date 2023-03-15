@@ -1,7 +1,7 @@
 fun main(){
-    guestDrinks(10)
-    guestDrinks(4)
-    guestDrinks(12)
+    drinks(10)
+    drinks(5)
+    drinks(20)
     var t = studentsArray(arrayOf("Stephanie","Florence","Joyce","Esther"))
     println(t)
     oddNums()
@@ -15,7 +15,6 @@ fun main(){
 //else gets a bottle of coca cola. Create a function that will make these
 //decisions, printing out the name of the drink each person gets according to
 //their age.
-fun guestDrinks(drinks:Int) {
     fun drinks(age: Int) {
         if (age in 0..6) {
             println("milk ")}
@@ -27,7 +26,7 @@ fun guestDrinks(drinks:Int) {
 
         }
     }
-}
+
 
 //Create a function that prints out all the odd numbers between 1 and 100
 fun oddNums() {
